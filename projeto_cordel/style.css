@@ -28,7 +28,7 @@ a{
 header{
     color: rgb(239, 220, 233);
     background-color: #66200A;
-    padding: 40px;
+    padding: 50px;
     text-align: center;
 }
 header h1{
@@ -39,7 +39,7 @@ header h1{
 /**texto**/
 section{
     font-size: 25px;
-    padding: 10vh 0px;
+    padding: 10vh 0px 10vh 20px;
 }
 section.back{
     background-color: #FAA7A3;
@@ -47,7 +47,12 @@ section.back{
 section.back_ex{
     color: #ffffff;
 }
-p{
+section.back_ex p {
+    width: 370px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.723);
+}
+section p{
     margin-bottom: 20px;
 }
 /**rodapé**/
