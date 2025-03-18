@@ -21,6 +21,9 @@ a{
     text-decoration: none;
     color: #ff6a00;
 }
+a:hover{
+
+}
 /**cabeçalho**/
 header{
     font-family: 'passion-one', sans-serif;
@@ -45,22 +48,26 @@ section.back{
 }
 section.back_ex{
     color: #ffffff;
+    box-shadow: inset 6px 0px 20px 0px #000000;
 }
 section.back_ex p {
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.723);
+    background-color: #1616165e;
     display: inline-block;
+    
 }
 section p{
     margin-bottom: 20px;
 }
 section#imagem1{
-    background: #FAA7A3 url('imagens/background001.jpg') no-repeat fixed;
+    background: #1616165e url('imagens/background001.jpg') no-repeat fixed;
     background-size: cover;
+    background-position: center 0px;
 }
 
 section#imagem2{
     background: #FAA7A3 url('imagens/background002.jpg') no-repeat fixed;
+    
     background-size: cover;
 }
 /**rodapé**/
