@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Playpen+Sans:wght@100..800&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -26,19 +27,21 @@ a{
 }
 /**cabeçalho**/
 header{
+    font-family: 'passion-one', sans-serif;
     color: rgb(239, 220, 233);
     background-color: #66200A;
     padding: 50px;
     text-align: center;
 }
 header h1{
-    font-size: 50px;
+    font-size: 42px;
     margin-bottom: 20px;
     font-variant: small-caps;
 }
 /**texto**/
 section{
-    font-size: 25px;
+    line-height: 2em;
+    font-size: 3vw;
     padding: 10vh 0px 10vh 20px;
 }
 section.back{
@@ -48,9 +51,9 @@ section.back_ex{
     color: #ffffff;
 }
 section.back_ex p {
-    width: 370px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.723);
+    display: inline-block;
 }
 section p{
     margin-bottom: 20px;
