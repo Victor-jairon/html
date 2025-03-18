@@ -1,9 +1,20 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100%;
+}
 
 body{
     background-color: #FAA7A3;
+    background-image: url('imagens/background001.jpg');
+    background: #FAA7A3 url('imagens/background001.jpg') no-repeat fixed;
+    background-size: cover;
+    
 }
 main{
     font-family:"Playpen Sans", cursive;
@@ -13,17 +24,36 @@ a{
     text-decoration: none;
     color: #ff6a00;
 }
+/**cabeçalho**/
 header{
     color: rgb(239, 220, 233);
     background-color: #66200A;
-    padding: 10px;
+    padding: 40px;
+    text-align: center;
 }
-
-
-
+header h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-variant: small-caps;
+}
+/**texto**/
+section{
+    font-size: 25px;
+    padding: 10vh 0px;
+}
+section.back{
+    background-color: #FAA7A3;
+}
+section.back_ex{
+    color: #ffffff;
+}
+p{
+    margin-bottom: 20px;
+}
 /**rodapé**/
 footer{
+    text-align: center;
+    color: white;
     padding: 5px;
     background-color: #66200A;
-    margin: -10px;
 }
