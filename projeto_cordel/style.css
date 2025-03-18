@@ -10,13 +10,9 @@ html, body{
     min-height: 100%;
 }
 
-body{
-    background-color: #FAA7A3;
-    background-image: url('imagens/background001.jpg');
+/**body{
     background: #FAA7A3 url('imagens/background001.jpg') no-repeat fixed;
-    background-size: cover;
-    
-}
+    background-size: cover;**/
 main{
     font-family:"Playpen Sans", cursive;
 }
@@ -57,6 +53,15 @@ section.back_ex p {
 }
 section p{
     margin-bottom: 20px;
+}
+section#imagem1{
+    background: #FAA7A3 url('imagens/background001.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
+section#imagem2{
+    background: #FAA7A3 url('imagens/background002.jpg') no-repeat fixed;
+    background-size: cover;
 }
 /**rodapé**/
 footer{
