@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+body{
+    background-color: #FAA7A3;
+}
+main{
+    font-family:"Playpen Sans", cursive;
+}
+/**links**/
+a{
+    text-decoration: none;
+    color: #ff6a00;
+}
+header{
+    color: rgb(239, 220, 233);
+    background-color: #66200A;
+    padding: 10px;
+}
+
+
+
+/**rodapé**/
+footer{
+    padding: 5px;
+    background-color: #66200A;
+    margin: -10px;
+}
