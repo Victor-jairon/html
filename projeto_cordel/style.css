@@ -57,13 +57,13 @@ section p{
     margin-bottom: 20px;
 }
 section#imagem1{
-    background: #1616165e url('imagens/background001.jpg') no-repeat fixed;
+    background: #0000005e url('imagens/background001.jpg') repeat fixed;
     background-size: cover;
     background-position: center 0px;
 }
 
 section#imagem2{
-    background: #FAA7A3 url('imagens/background002.jpg') no-repeat fixed;
+    background: #000000 url('imagens/background002.jpg') repeat fixed;
     
     background-size: cover;
 }
