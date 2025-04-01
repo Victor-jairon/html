@@ -1,0 +1,21 @@
+th, td{
+    border: black solid 2px;
+    padding: 5px;
+    width: 70px;
+    
+}
+th{
+    text-align: center;
+    background-color: rgb(119, 119, 119);
+    color: white;
+}
+table{
+    
+    border-collapse: collapse;
+}
+input{
+    border: none;
+    outline: 0;
+    width: 70px;
+
+}
